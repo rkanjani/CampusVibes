@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rohan/Documents/CampusVibes/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_abe6b740444197e65ac099a5dc1e1c806335b803.jar" />
+    </item>
+    <item
+        jar="/Users/rohan/Documents/CampusVibes/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_fa9a1ca9c2c6c304545393e371611e530a314b24.jar" />
+    </item>
+    <item
+        jar="/Users/rohan/Documents/CampusVibes/app/build/intermediates/exploded-aar/CampusVibes/videowidget/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="416ae207fbb03562cef831b9aa691b23342d7cb6">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/CampusVibes-videowidget-unspecified_55d82d17fc872748d8d626da2c81020ccb0e5c08.jar" />
+    </item>
+    <item
+        jar="/Users/rohan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_65c115b96e7bd98bde592725da93113cc080fcd7.jar" />
+    </item>
+    <item
+        jar="/Users/rohan/Documents/CampusVibes/app/build/intermediates/exploded-aar/CampusVibes/common/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="47e44d401381cce999daa79acb342e760615712c">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/CampusVibes-common-unspecified_3c725ee99a58af5d62ac99285ce4d5ca3e73e04b.jar" />
+    </item>
+    <item
+        jar="/Users/rohan/Documents/CampusVibes/app/build/intermediates/exploded-aar/CampusVibes/audio/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="26f18223d94da817505fb11aeb6ae4653f17aec5">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/CampusVibes-audio-unspecified_8f069c9a6d73f6477ecb546f5b4d4c1edc83d863.jar" />
+    </item>
+    <item
+        jar="/Users/rohan/Documents/CampusVibes/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_a0267418b1229e641038b312bcf76196c65d4d52.jar" />
+    </item>
+    <item
+        jar="/Users/rohan/Documents/CampusVibes/app/build/intermediates/exploded-aar/CampusVibes/commonwidget/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="51aa06200064048ea5c2e16610681183bfefeb83">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/CampusVibes-commonwidget-unspecified_d07fafdbf2f64bb65575a16e1d0cf129b3aa8045.jar" />
+    </item>
+    <item
+        jar="/Users/rohan/Documents/CampusVibes/app/build/intermediates/exploded-aar/CampusVibes/base/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a70a6b6d2d4980e1b3cf97012a0063596ec9b84b">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/CampusVibes-base-unspecified_5d3686aabf40872084b0ba807456c61e5a9697dd.jar" />
+    </item>
+    <item
+        jar="/Users/rohan/Documents/CampusVibes/app/build/intermediates/exploded-aar/CampusVibes/controller/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a204822d1ed06d9b60d7bd48b9d5ac6ba77c8735">
+        <dex dex="/Users/rohan/Documents/CampusVibes/app/build/intermediates/pre-dexed/debug/CampusVibes-controller-unspecified_f5a2d89f5e3f9411385917a373c5d7b62035e435.jar" />
+    </item>
+
+</items>

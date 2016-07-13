@@ -23,12 +23,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         String uriPath2 = "android.resource://" + getPackageName() + "/raw/vid.mp4";
+        Uri uri = Uri.parse("http://www.ebookfrenzy.com/android_book/movie.mp4");
 
 
 
 
         try {
-            video.loadVideo(Uri.parse(uriPath2), options);
+            video.loadVideo(uri, options);
 
         } catch (IOException e) {
             e.printStackTrace();
