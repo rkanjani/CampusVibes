@@ -9,21 +9,21 @@
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-b1642e37b45963af25ee113eaec46c25df28655ab893baf240e31a7dd0a215ea.css" integrity="sha256-sWQuN7RZY68l7hE+rsRsJd8oZVq4k7ryQOMafdCiFeo=" media="all" rel="stylesheet" />
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-dd31442aa7c9597a6d96c8cdb656f427097212549b312738ddc8de92d1c8b530.css" integrity="sha256-3TFEKqfJWXptlsjNtlb0JwlyElSbMSc43cjektHItTA=" media="all" rel="stylesheet" />
-
-
-
-
+    
+    
+    
+    
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/system-fonts-b4cd5a28f837260371d5a61872bda2262ec244fc0c92bc9243fec8d26d246840.css" integrity="sha256-tM1aKPg3JgNx1aYYcr2iJi7CRPwMkrySQ/7I0m0kaEA=" media="all" rel="stylesheet" />
 
     <link as="script" href="https://assets-cdn.github.com/assets/frameworks-149d9338c2665172870825c78fa48fdcca4d431d067cbf5fda7120d9e39cc738.js" rel="preload" />
-
+    
     <link as="script" href="https://assets-cdn.github.com/assets/github-03d8b2368291fbba3c2563306fed9dd5fa9c8f66aff2e14b7ad7c7954036b83c.js" rel="preload" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width">
-
-
+    
+    
     <title>aframe/aframe.js at master · aframevr/aframe</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -79,9 +79,9 @@
     <meta content="c7c76b757853aa58a6cbd5182f8b1d8999be0a93" name="form-nonce" />
 
     <meta http-equiv="x-pjax-version" content="4b7caa71672de2857d8ca0d1e259a4a0">
+    
 
-
-
+      
   <meta name="description" content="aframe - Building Blocks for the VR Web">
   <meta name="go-import" content="github.com/aframevr/aframe git https://github.com/aframevr/aframe.git">
 
@@ -97,9 +97,9 @@
     <div id="js-pjax-loader-bar" class="pjax-loader-bar"></div>
     <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
 
-
-
-
+    
+    
+    
 
 
 
@@ -143,10 +143,10 @@
           </li>
       </ul>
 
-
+    
 <ul class="header-nav user-nav right" id="user-links">
   <li class="header-nav-item">
-
+    
     <a href="/notifications" aria-label="You have unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s js-socket-channel js-notification-indicator" data-channel="tenant:1:notification-changed:15149367" data-ga-click="Header, go to notifications, icon:unread" data-hotkey="g n">
         <span class="mail-status unread"></span>
         <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"></path></svg>
@@ -163,7 +163,7 @@
 
     <div class="dropdown-menu-content js-menu-content">
       <ul class="dropdown-menu dropdown-menu-sw">
-
+        
 <a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
   New repository
 </a>
@@ -240,12 +240,12 @@
 </ul>
 
 
-
+    
   </div>
 </div>
 
 
-
+      
 
 
     <div id="start-of-content" class="accessibility-aid"></div>
@@ -257,11 +257,11 @@
     <div role="main">
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
     <div id="js-repo-pjax-container" data-pjax-container>
-
+      
 <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
   <div class="container repohead-details-container">
 
-
+    
 
 <ul class="pagehead-actions">
 
@@ -338,7 +338,7 @@
   </li>
 
   <li>
-
+    
   <div class="js-toggler-container js-social-container starring-container ">
 
     <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/aframevr/aframe/unstar" class="starred" data-form-nonce="c7c76b757853aa58a6cbd5182f8b1d8999be0a93" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5tNJXYV8wRY15qElvbu3ymkaRo5W9ZHGtiTwQWhW1qtFfpqAt/95KFAYRoYAJhes2KoX9C0/4jyUMNIcxzYr6w==" /></div>
@@ -403,7 +403,7 @@
 
   </div>
   <div class="container">
-
+    
 <nav class="reponav js-repo-nav js-sidenav-container-pjax"
      itemscope
      itemtype="http://schema.org/BreadcrumbList"
@@ -455,14 +455,14 @@
 <div class="container new-discussion-timeline experiment-repo-nav">
   <div class="repository-content">
 
-
+    
 
 <a href="/aframevr/aframe/blob/33fb096c32b02b58d1f033be373499ec8f945de6/dist/aframe.js" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
 <!-- blob contrib key: blob_contributors:v21:241eae87040b67bb23fdcbb6fd629e69 -->
 
 <div class="file-navigation js-zeroclipboard-container">
-
+  
 <div class="select-menu branch-select-menu js-menu-container js-select-menu left">
   <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
     title="master"
@@ -715,7 +715,7 @@
   </div>
 </div>
 
-
+  
 
   <div itemprop="text" class="blob-wrapper data type-text">
       <div class="image">
@@ -771,7 +771,7 @@
 
 
 
-
+    
 
     <div id="ajax-error-message" class="ajax-error-message flash flash-error">
       <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
@@ -782,15 +782,15 @@
     </div>
 
 
-
+      
       <script crossorigin="anonymous" integrity="sha256-FJ2TOMJmUXKHCCXHj6SP3MpNQx0GfL9f2nEg2eOcxzg=" src="https://assets-cdn.github.com/assets/frameworks-149d9338c2665172870825c78fa48fdcca4d431d067cbf5fda7120d9e39cc738.js"></script>
       <script async="async" crossorigin="anonymous" integrity="sha256-A9iyNoKR+7o8JWMwb+2d1fqcj2av8uFLetfHlUA2uDw=" src="https://assets-cdn.github.com/assets/github-03d8b2368291fbba3c2563306fed9dd5fa9c8f66aff2e14b7ad7c7954036b83c.js"></script>
-
-
-
-
-
-
+      
+      
+      
+      
+      
+      
     <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
       <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
       <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
@@ -808,3 +808,4 @@
 
   </body>
 </html>
+
