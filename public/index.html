@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>CVibes</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>  
-    <script src="../lib/jquery.min.js"></script>  
-    <script src="../lib/aframe.min.js"></script>  
+    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+    <script src="/lib/jquery.min.js"></script>
+    <script src="/lib/aframe.min.js"></script>
 
 
   </head>
@@ -20,7 +20,7 @@
           <a-mixin id="board" geometry="depth: .05; height: 1; width: 6" material="shader: flat"
                    pivot="0 0 0" position="0 -1 0"></a-mixin>
           <a-mixin id="unhinge" attribute="rotation" to="0 0 0" dur="1000" fill="both"></a-mixin>
-          <img id="shadow" src="../img/menu-shadow.png">
+          <img id="shadow" src="/img/menu-shadow.png">
         </a-assets>
 
         <!-- Series of nested boards that unfold one by one. -->
@@ -55,7 +55,7 @@
         <a-sky color="#ECECEC"></a-sky>
         <a-light type="directional" color="#fff" intensity="0.2" position="-1 2 1"></a-light>
         <a-light type="ambient" color="#fff"></a-light>
-      
+
 
 
 
@@ -64,9 +64,9 @@
 
 
     <!-- Video asset itself-->
-    
+
       <a-assets>
-        <video id="video" src="../../videos/vid.mp4" webkit-playsinline loop></video>
+        <video id="video" src="/videos/vid.mp4" webkit-playsinline loop></video>
       </a-assets>
 
       <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
