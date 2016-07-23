@@ -5,8 +5,8 @@
     <title>CVibes</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>  
-    <script src="lib/jquery.min.js"></script>  
-    <script src="lib/aframe.min.js"></script>  
+    <script src="../lib/jquery.min.js"></script>  
+    <script src="../lib/aframe.min.js"></script>  
 
 
   </head>
@@ -14,6 +14,8 @@
 
   <!--Menu for campus navigation-->
    <a-scene>
+
+
         <a-assets>
           <a-mixin id="board" geometry="depth: .05; height: 1; width: 6" material="shader: flat"
                    pivot="0 0 0" position="0 -1 0"></a-mixin>
@@ -28,19 +30,19 @@
           <a-animation attribute="rotation" from="0 60 0" to="0 30 0" dur="2500"></a-animation>
 
           <!-- Pivot and position are used to set the "hinge" of each board to it's top edge. -->
-          <a-box mixin="board" color="#F16745">
+          <a-box mixin="board" style="" color="#4CC3D9">
             <a-animation mixin="unhinge" from="-20 0 0" delay="1000"></a-animation>
 
-            <a-box mixin="board" color="#FFC65D">
+            <a-box mixin="board" color="#4CC3D9">
               <a-animation mixin="unhinge" from="-175 0 0" delay="250"></a-animation>
 
-              <a-box mixin="board" color="#7BC8A4">
+              <a-box mixin="board" color="#4CC3D9">
                 <a-animation mixin="unhinge" from="-180 0 0" delay="500"></a-animation>
 
                 <a-box mixin="board" color="#4CC3D9">
                   <a-animation mixin="unhinge" from="-180 0 0" delay="750"></a-animation>
 
-                  <a-box mixin="board" color="#93648D">
+                  <a-box mixin="board" color="#4CC3D9">
                     <a-animation mixin="unhinge" from="-180 0 0" delay="100"></a-animation>
                   </a-box>
                 </a-box>
@@ -68,7 +70,7 @@
       </a-assets>
 
       <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
-    </a-scene>
+  </a-scene>
 
 
   </body>
