@@ -1,69 +1,39 @@
-# http-server: a command-line http server
+# node-js-getting-started
 
-`http-server` is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
+A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-![](https://github.com/nodeapps/http-server/raw/master/screenshots/public.png)
+This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
 
-# Installing globally:
+## Running Locally
 
-Installation via `npm`:
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
-     npm install http-server -g
+```sh
+$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
+$ cd node-js-getting-started
+$ npm install
+$ npm start
+```
 
-This will install `http-server` globally so that it may be run from the command line.
+Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Usage:
+## Deploying to Heroku
 
-     http-server [path] [options]
+```
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
+or
 
-`[path]` defaults to `./public` if the folder exists, and `./` otherwise.
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-# Installing as a node app
+## Documentation
 
-     mkdir myapp
-     cd myapp/
-     jitsu install http-server
+For more information about using Node.js on Heroku, see these Dev Center articles:
 
-*If you do not have `jitsu` installed you can install it via `npm install jitsu -g`*
-
-## Usage
-
-### Starting http-server locally
-
-     node bin/http-server
-
-*Now you can visit http://localhost:8080 to view your server*
-
-## Available Options:
-
-`-p` Port to use (defaults to 8080)
-
-`-a` Address to use (defaults to 0.0.0.0)
-
-`-d` Show directory listings (defaults to 'True')
-
-`-i` Display autoIndex (defaults to 'True')
-
-`-e` or `--ext` Default file extension if none supplied (defaults to 'html')
-
-`-s` or `--silent` Suppress log messages from output
-
-`--cors` Enable CORS via the `Access-Control-Allow-Origin` header
-
-`-o` Open browser window after starting the server
-
-`-c` Set cache time (in seconds) for cache-control max-age header, e.g. -c10 for 10 seconds (defaults to '3600'). To disable caching, use -c-1.
-
-`-U` or `--utc` Use UTC time format in log messages.
-
-`-P` or `--proxy` Proxies all requests which can't be resolved locally to the given url. e.g.: -P http://someurl.com
-
-`-S` or `--ssl` Enable https.
-
-`-C` or `--cert` Path to ssl cert file (default: cert.pem).
-
-`-K` or `--key` Path to ssl key file (default: key.pem).
-
-`-r` or `--robots` Provide a /robots.txt (whose content defaults to 'User-agent: *\nDisallow: /')
-
-`-h` or `--help` Print this list and exit.
+- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
+- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
