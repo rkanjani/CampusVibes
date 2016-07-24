@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CVibes</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>  
+    <script src="lib/jquery.js"></script>  
+    <script src="lib/bootstrap.min.js"></script>  
+    <script src="lib/aframe.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="lib/mouse-cursor.min.js"></script>
+
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+      <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Campus Vibes
+                    </a>
+                </li>
+                <li>
+                    <a onclick="switchCamera('dms')" href="#">DMS - Telfer School of Business</a>
+                </li>
+                <li>
+                    <a onclick="switchCamera('laurier')" href="#">DMS - Laurier Bus Stop</a>
+                </li>
+                <li>
+                    <a href="#">FSS - School of Social Sciences</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a style="z-index:100; position:absolute;" href="#menu-toggle" class="btn btn-clear" id="menu-toggle">
+                        <img src="img/menu.png"></img>
+                        </a>
+                        <canvas id="videosphere" width="auto" height="auto"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- /#page-content-wrapper -->
+
+
+      <!--Menu for campus navigation-->
+       <a-scene canvas="canvas: #videosphere">
+            <!--Assets-->
+            <a-assets>
+              <video id="laurier" src="videos/laurier.mp4" webkit-playsinline loop></video>
+
+              <video id="dms" src="videos/dms.mp4" webkit-playsinline loop></video>
+
+              <a-mixin id="board" geometry="depth: .05; height: 1; width: 6" material="shader: flat"
+                       pivot="0 0 0" position="0 -1 0"></a-mixin>
+              <a-mixin id="unhinge" attribute="rotation" to="0 0 0" dur="1000" fill="both"></a-mixin>
+              <a-mixin id="hinge" attribute="rotation" to="0 0 0" dur="1000" fill="both"></a-mixin>
+              <img id="shadow" src="img/menu-shadow.png">
+            </a-assets>
+            <!--******-->
+            <a-videosphere src="#laurier" rotation="0 180 0"></a-videosphere>
+
+       </a-scene>
+
+
+
+             
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+  </body>
+
+</html>
